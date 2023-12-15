@@ -1,9 +1,84 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.TrinityOverhaul",
+	"name": "The Trinity Overhaul",
+	"description": "Overhaul the Trinity suits to use the Hitman 3 slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.33.6",
+	"version": "1.0.0",
+	"contentFolders": ["base"],
+	"options": [
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Driving Gloves (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use driving gloves.",
+			"image": "b_drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "Leather Gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves.",
+			"contentFolders": ["variant/black/gloves/leather"],
+			"image": "b_leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Black - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Bare hands.",
+			"contentFolders": ["variant/black/gloves/barehanded"],
+			"image": "b_nogloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Driving Gloves (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use driving gloves.",
+			"image": "r_drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "Leather Gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves.",
+			"contentFolders": ["variant/red/gloves/leather"],
+			"image": "r_leathergloves.jpg"
+		},
+		{
+			"group": "Variant - Red - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Bare hands.",
+			"contentFolders": ["variant/red/gloves/barehanded"],
+			"image": "r_nogloves.jpg"
+		},
+		{
+			"group": "Variant - White - Gloves",
+			"name": "Driving Gloves (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use driving gloves.",
+			"image": "w_drivinggloves.jpg"
+		},
+		{
+			"group": "Variant - White - Gloves",
+			"name": "Leather Gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves.",
+			"contentFolders": ["variant/white/gloves/leather"],
+			"image": "w_leathergloves.jpg"
+		},
+		{
+			"group": "Variant - White - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Bare hands.",
+			"contentFolders": ["variant/white/gloves/barehanded"],
+			"image": "w_nogloves.jpg"
+		}
+	]
 }

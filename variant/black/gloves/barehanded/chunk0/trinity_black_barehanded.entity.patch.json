@@ -1,0 +1,11 @@
+{
+	"tempHash": "003DBA215C9576FD",
+	"tbluHash": "00E2364CB138ECF7",
+	"patch": [
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetName": "Hands" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetFactory": "009A6D9F7927FB89" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetBlueprint": "00F49463DEA8D412" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "RemovePropertyByName": "Diffuse_Color_01_Value" }] }
+	],
+	"patchVersion": 6
+}

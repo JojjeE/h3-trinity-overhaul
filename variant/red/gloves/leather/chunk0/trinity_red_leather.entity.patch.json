@@ -1,0 +1,58 @@
+{
+	"tempHash": "008C44BF5EB5FD85",
+	"tbluHash": "0061285B17D2BB5E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"SetName": "Gloves_Leather"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"SetFactory": "00BEE701448762C1"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"SetBlueprint": "005D2B1CBD509E61"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"RemovePropertyByName": "Texture2D_03"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"RemovePropertyByName": "ConstantVector1D_01_Value"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"df28b22e2ba1029b",
+				{
+					"SetPropertyValue": {
+						"property_name": "Diffuse_Color_01_Value",
+						"value": "#ba0000"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

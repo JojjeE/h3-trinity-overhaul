@@ -1,0 +1,13 @@
+{
+	"tempHash": "009C345AB071BCD4",
+	"tbluHash": "00493ADBB2677A3F",
+	"patch": [
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetName": "Hands" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetFactory": "009A6D9F7927FB89" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "SetBlueprint": "00F49463DEA8D412" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "RemovePropertyByName": "Diffuse_Color_01_Value" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "RemovePropertyByName": "Texture2D_03" }] },
+		{ "SubEntityOperation": ["df28b22e2ba1029b", { "RemovePropertyByName": "ConstantVector1D_01_Value" }] }
+	],
+	"patchVersion": 6
+}
