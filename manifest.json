@@ -7,6 +7,7 @@
 	"frameworkVersion": "2.33.6",
 	"version": "1.0.0",
 	"contentFolders": ["base"],
+	"blobsFolders": ["blobs"],
 	"options": [
 		{
 			"group": "Variant - Black - Gloves",
