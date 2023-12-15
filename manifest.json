@@ -80,5 +80,6 @@
 			"contentFolders": ["variant/white/gloves/barehanded"],
 			"image": "w_nogloves.jpg"
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-trinity-overhaul/releases/latest/download/updates.json"
 }
