@@ -5,7 +5,7 @@
 	"description": "Overhaul the Trinity suits to use the Hitman 3 slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.6",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"contentFolders": ["base"],
 	"blobsFolders": ["blobs"],
 	"options": [
