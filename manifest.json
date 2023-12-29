@@ -2,13 +2,88 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"id": "Jojje.TrinityOverhaul",
 	"name": "The Trinity Overhaul",
-	"description": "Overhaul the Trinity suits to use the Hitman 3 slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options.",
+	"description": "Overhaul the Trinity suits to use a slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options and suit options.",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.6",
 	"version": "1.1.0",
 	"contentFolders": ["base"],
 	"blobsFolders": ["blobs"],
 	"options": [
+		{
+			"group": "Suit - Black",
+			"name": "Hitman 3 (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use Hitman 3 suit.",
+			"contentFolders": ["suit/black/h3"],
+			"image": "b_h3.jpg"
+		},
+		{
+			"group": "Suit - Black",
+			"name": "Hitman 2",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit.",
+			"contentFolders": ["suit/black/h2", "suit/h2depends"],
+			"image": "b_h2.jpg"
+		},
+		{
+			"group": "Suit - Black",
+			"name": "Hitman 2 Tie Clip",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
+			"contentFolders": ["suit/black/h2_tieclip", "suit/h2depends"],
+			"image": "b_h2_tieclip.jpg"
+		},
+		{
+			"group": "Suit - Red",
+			"name": "Hitman 3 (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use Hitman 3 suit.",
+			"contentFolders": ["suit/red/h3"],
+			"image": "r_h3.jpg"
+		},
+		{
+			"group": "Suit - Red",
+			"name": "Hitman 2",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit.",
+			"contentFolders": ["suit/red/h2", "suit/h2depends"],
+			"image": "r_h2.jpg"
+		},
+		{
+			"group": "Suit - Red",
+			"name": "Hitman 2 Tie Clip",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
+			"contentFolders": ["suit/red/h2_tieclip", "suit/h2depends"],
+			"image": "r_h2_tieclip.jpg"
+		},
+		{
+			"group": "Suit - White",
+			"name": "Hitman 3 (Default)",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Use Hitman 3 suit.",
+			"contentFolders": ["suit/white/h3"],
+			"image": "w_h3.jpg"
+		},
+		{
+			"group": "Suit - White",
+			"name": "Hitman 2",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit.",
+			"contentFolders": ["suit/white/h2", "suit/h2depends"],
+			"image": "w_h2.jpg"
+		},
+		{
+			"group": "Suit - White",
+			"name": "Hitman 2 Tie Clip",
+			"type": "select",
+			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
+			"contentFolders": ["suit/white/h2_tieclip", "suit/h2depends"],
+			"image": "w_h2_tieclip.jpg"
+		},
 		{
 			"group": "Variant - Black - Gloves",
 			"name": "Driving Gloves (Default)",

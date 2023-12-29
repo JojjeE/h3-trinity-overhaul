@@ -2,8 +2,17 @@
 	"$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
 	"customPaths": [],
 	"treeViewState": {
-		"008C44BF5EB5FD85": { "expandedNodes": [], "selectedEntity": "df28b22e2ba1029b" },
-		"009C345AB071BCD4": { "expandedNodes": ["22ea5f8267450642"], "selectedEntity": "562726a94c9b016c" },
-		"003DBA215C9576FD": { "expandedNodes": ["22ea5f8267450642"], "selectedEntity": "22ea5f8267450642" }
+		"008C44BF5EB5FD85": {
+			"expandedNodes": ["864e6e789e3f7f22", "86e5a2e22ca3028d"],
+			"selectedEntity": "38a39899f6785942"
+		},
+		"009C345AB071BCD4": {
+			"expandedNodes": ["0f988e9dc2ea04b8", "e54c81c8a11231bc"],
+			"selectedEntity": "3d31d4b1162354f1"
+		},
+		"003DBA215C9576FD": {
+			"expandedNodes": ["a2c80deb48154b9d", "b3ec019a75dde6c3"],
+			"selectedEntity": "314b93a214ad30d6"
+		}
 	}
 }
