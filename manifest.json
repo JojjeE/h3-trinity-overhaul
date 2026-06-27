@@ -7,7 +7,6 @@
 	"frameworkVersion": "2.33.7",
 	"version": "1.2.0",
 	"contentFolders": ["base"],
-	"blobsFolders": ["blobs"],
 	"options": [
 		{
 			"group": "Suit - Black",
@@ -16,6 +15,7 @@
 			"enabledByDefault": true,
 			"tooltip": "Use Hitman 3 suit.",
 			"contentFolders": ["suit/black/h3"],
+			"blobsFolders": ["blobs/black"],
 			"image": "b_h3.jpg"
 		},
 		{
@@ -24,6 +24,7 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit.",
 			"contentFolders": ["suit/black/h2", "suit/h2depends"],
+			"blobsFolders": ["blobs/black"],
 			"image": "b_h2.jpg"
 		},
 		{
@@ -32,7 +33,14 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
 			"contentFolders": ["suit/black/h2_tieclip", "suit/h2depends"],
+			"blobsFolders": ["blobs/black"],
 			"image": "b_h2_tieclip.jpg"
+		},
+		{
+			"group": "Suit - Black",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not replace the Black Trinity suit."
 		},
 		{
 			"group": "Suit - Red",
@@ -41,6 +49,7 @@
 			"enabledByDefault": true,
 			"tooltip": "Use Hitman 3 suit.",
 			"contentFolders": ["suit/red/h3"],
+			"blobsFolders": ["blobs/red"],
 			"image": "r_h3.jpg"
 		},
 		{
@@ -49,6 +58,7 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit.",
 			"contentFolders": ["suit/red/h2", "suit/h2depends"],
+			"blobsFolders": ["blobs/red"],
 			"image": "r_h2.jpg"
 		},
 		{
@@ -57,7 +67,14 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
 			"contentFolders": ["suit/red/h2_tieclip", "suit/h2depends"],
+			"blobsFolders": ["blobs/red"],
 			"image": "r_h2_tieclip.jpg"
+		},
+		{
+			"group": "Suit - Red",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not replace the Red Trinity suit."
 		},
 		{
 			"group": "Suit - White",
@@ -66,6 +83,7 @@
 			"enabledByDefault": true,
 			"tooltip": "Use Hitman 3 suit.",
 			"contentFolders": ["suit/white/h3"],
+			"blobsFolders": ["blobs/white"],
 			"image": "w_h3.jpg"
 		},
 		{
@@ -74,6 +92,7 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit.",
 			"contentFolders": ["suit/white/h2", "suit/h2depends"],
+			"blobsFolders": ["blobs/white"],
 			"image": "w_h2.jpg"
 		},
 		{
@@ -82,7 +101,14 @@
 			"type": "select",
 			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
 			"contentFolders": ["suit/white/h2_tieclip", "suit/h2depends"],
+			"blobsFolders": ["blobs/white"],
 			"image": "w_h2_tieclip.jpg"
+		},
+		{
+			"group": "Suit - White",
+			"name": "Do not install",
+			"type": "select",
+			"tooltip": "Do not replace the White Trinity suit."
 		},
 		{
 			"group": "Variant - Black - Gloves",

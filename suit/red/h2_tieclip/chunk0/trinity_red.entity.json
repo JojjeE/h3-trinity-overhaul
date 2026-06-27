@@ -1159,7 +1159,7 @@
 				}
 			}
 		},
-		"df28b22e2ba1029b": {
+		"d381f2da1fe9bc1d": {
 			"parent": "864e6e789e3f7f22",
 			"name": "Agent47_Gloves_Driving",
 			"factory": "008897FB54E3DB82",
@@ -1264,7 +1264,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"SpecularRoughnessMin": ["df28b22e2ba1029b"],
+					"SpecularRoughnessMin": ["d381f2da1fe9bc1d"],
 					"ConstantVector1D_04_Value": ["28b4e08d661cc283", "462ad90d716f6f97"]
 				}
 			}
@@ -1774,7 +1774,7 @@
 						"462ad90d716f6f97",
 						"28b4e08d661cc283",
 						"a7943170e27262b5",
-						"df28b22e2ba1029b",
+						"d381f2da1fe9bc1d",
 						"86e5a2e22ca3028d",
 						"23627fa55dfedb22",
 						"feed0d799c69b457"
@@ -2280,7 +2280,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_01_Value": ["df28b22e2ba1029b"]
+					"ConstantVector1D_01_Value": ["d381f2da1fe9bc1d"]
 				}
 			}
 		},

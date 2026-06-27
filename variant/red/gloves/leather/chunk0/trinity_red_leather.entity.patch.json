@@ -4,7 +4,7 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"SetName": "Gloves_Leather"
 				}
@@ -12,7 +12,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"SetFactory": "00BEE701448762C1"
 				}
@@ -20,7 +20,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"SetBlueprint": "005D2B1CBD509E61"
 				}
@@ -28,7 +28,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"RemovePropertyByName": "Texture2D_03"
 				}
@@ -36,7 +36,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"RemovePropertyByName": "ConstantVector1D_01_Value"
 				}
@@ -44,7 +44,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"d381f2da1fe9bc1d",
 				{
 					"SetPropertyValue": {
 						"property_name": "Diffuse_Color_01_Value",

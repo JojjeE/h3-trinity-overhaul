@@ -4,7 +4,7 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"142382922ede73da",
 				{
 					"SetName": "Gloves_Leather"
 				}
@@ -12,7 +12,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"142382922ede73da",
 				{
 					"SetFactory": "00BEE701448762C1"
 				}
@@ -20,7 +20,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"142382922ede73da",
 				{
 					"SetBlueprint": "005D2B1CBD509E61"
 				}
@@ -28,7 +28,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"142382922ede73da",
 				{
 					"RemovePropertyByName": "Texture2D_03"
 				}
@@ -36,7 +36,7 @@
 		},
 		{
 			"SubEntityOperation": [
-				"df28b22e2ba1029b",
+				"142382922ede73da",
 				{
 					"RemovePropertyByName": "ConstantVector1D_01_Value"
 				}
