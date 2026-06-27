@@ -6,4 +6,4 @@ Overhaul the Trinity suits to use a slim fit suit, instead of the Hitman 2 "bagg
 
 ---
 
-`Jojje.TrinityOverhaul` v1.2.0, by Jojje. This README was automatically generated from the mod's manifest.
+`Jojje.TrinityOverhaul` v1.3.0, by Jojje. This README was automatically generated from the mod's manifest.
