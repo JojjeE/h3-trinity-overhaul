@@ -1,187 +1,278 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "Jojje.TrinityOverhaul",
-	"name": "The Trinity Overhaul",
-	"description": "Overhaul the Trinity suits to use a slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options and suit options.",
-	"authors": ["Jojje"],
-	"frameworkVersion": "2.33.40",
-	"version": "1.3.0",
-	"contentFolders": ["base"],
-	"options": [
-		{
-			"group": "Suit - Black",
-			"name": "Hitman 3 (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use Hitman 3 suit.",
-			"contentFolders": ["suit/black/h3"],
-			"blobsFolders": ["blobs/black"],
-			"image": "b_h3.jpg"
-		},
-		{
-			"group": "Suit - Black",
-			"name": "Hitman 2",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit.",
-			"contentFolders": ["suit/black/h2", "suit/h2depends"],
-			"blobsFolders": ["blobs/black"],
-			"image": "b_h2.jpg"
-		},
-		{
-			"group": "Suit - Black",
-			"name": "Hitman 2 Tie Clip",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
-			"contentFolders": ["suit/black/h2_tieclip", "suit/h2depends"],
-			"blobsFolders": ["blobs/black"],
-			"image": "b_h2_tieclip.jpg"
-		},
-		{
-			"group": "Suit - Black",
-			"name": "Do not install",
-			"type": "select",
-			"tooltip": "Do not replace the Black Trinity suit."
-		},
-		{
-			"group": "Suit - Red",
-			"name": "Hitman 3 (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use Hitman 3 suit.",
-			"contentFolders": ["suit/red/h3"],
-			"blobsFolders": ["blobs/red"],
-			"image": "r_h3.jpg"
-		},
-		{
-			"group": "Suit - Red",
-			"name": "Hitman 2",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit.",
-			"contentFolders": ["suit/red/h2", "suit/h2depends"],
-			"blobsFolders": ["blobs/red"],
-			"image": "r_h2.jpg"
-		},
-		{
-			"group": "Suit - Red",
-			"name": "Hitman 2 Tie Clip",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
-			"contentFolders": ["suit/red/h2_tieclip", "suit/h2depends"],
-			"blobsFolders": ["blobs/red"],
-			"image": "r_h2_tieclip.jpg"
-		},
-		{
-			"group": "Suit - Red",
-			"name": "Do not install",
-			"type": "select",
-			"tooltip": "Do not replace the Red Trinity suit."
-		},
-		{
-			"group": "Suit - White",
-			"name": "Hitman 3 (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use Hitman 3 suit.",
-			"contentFolders": ["suit/white/h3"],
-			"blobsFolders": ["blobs/white"],
-			"image": "w_h3.jpg"
-		},
-		{
-			"group": "Suit - White",
-			"name": "Hitman 2",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit.",
-			"contentFolders": ["suit/white/h2", "suit/h2depends"],
-			"blobsFolders": ["blobs/white"],
-			"image": "w_h2.jpg"
-		},
-		{
-			"group": "Suit - White",
-			"name": "Hitman 2 Tie Clip",
-			"type": "select",
-			"tooltip": "Use Hitman 2 slim fit suit with tie clip.",
-			"contentFolders": ["suit/white/h2_tieclip", "suit/h2depends"],
-			"blobsFolders": ["blobs/white"],
-			"image": "w_h2_tieclip.jpg"
-		},
-		{
-			"group": "Suit - White",
-			"name": "Do not install",
-			"type": "select",
-			"tooltip": "Do not replace the White Trinity suit."
-		},
-		{
-			"group": "Variant - Black - Gloves",
-			"name": "Driving Gloves (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use driving gloves.",
-			"image": "b_drivinggloves.jpg"
-		},
-		{
-			"group": "Variant - Black - Gloves",
-			"name": "Leather Gloves",
-			"type": "select",
-			"tooltip": "Use leather gloves.",
-			"contentFolders": ["variant/black/gloves/leather"],
-			"image": "b_leathergloves.jpg"
-		},
-		{
-			"group": "Variant - Black - Gloves",
-			"name": "No gloves",
-			"type": "select",
-			"tooltip": "Bare hands.",
-			"contentFolders": ["variant/black/gloves/barehanded"],
-			"image": "b_nogloves.jpg"
-		},
-		{
-			"group": "Variant - Red - Gloves",
-			"name": "Driving Gloves (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use driving gloves.",
-			"image": "r_drivinggloves.jpg"
-		},
-		{
-			"group": "Variant - Red - Gloves",
-			"name": "Leather Gloves",
-			"type": "select",
-			"tooltip": "Use leather gloves.",
-			"contentFolders": ["variant/red/gloves/leather"],
-			"image": "r_leathergloves.jpg"
-		},
-		{
-			"group": "Variant - Red - Gloves",
-			"name": "No gloves",
-			"type": "select",
-			"tooltip": "Bare hands.",
-			"contentFolders": ["variant/red/gloves/barehanded"],
-			"image": "r_nogloves.jpg"
-		},
-		{
-			"group": "Variant - White - Gloves",
-			"name": "Driving Gloves (Default)",
-			"type": "select",
-			"enabledByDefault": true,
-			"tooltip": "Use driving gloves.",
-			"image": "w_drivinggloves.jpg"
-		},
-		{
-			"group": "Variant - White - Gloves",
-			"name": "Leather Gloves",
-			"type": "select",
-			"tooltip": "Use leather gloves.",
-			"contentFolders": ["variant/white/gloves/leather"],
-			"image": "w_leathergloves.jpg"
-		},
-		{
-			"group": "Variant - White - Gloves",
-			"name": "No gloves",
-			"type": "select",
-			"tooltip": "Bare hands.",
-			"contentFolders": ["variant/white/gloves/barehanded"],
-			"image": "w_nogloves.jpg"
-		}
-	],
-	"updateCheck": "https://github.com/JojjeE/h3-trinity-overhaul/releases/latest/download/updates.json"
+  "$schema": "../../manifest-schema.json",
+  "id": "Jojje.TrinityOverhaul",
+  "name": "The Trinity Overhaul",
+  "description": "Overhaul the Trinity suits to use a slim fit suit, instead of the Hitman 2 \"baggy\" regular fit. Moves the fleur de lis logo from the tie to a small, classy lapel pin. With gloves options and suit options.",
+  "authors": ["Jojje"],
+  "version": "1.3.0",
+  "frameworkVersion": "3.0.0-rc.1",
+  "url": "https://github.com/JojjeE/h3-trinity-overhaul",
+  "conditions": { "supportedGames": ["h3"] },
+  "data": { "contentFolders": ["base"] },
+  "options": [
+    {
+      "id": "suits",
+      "type": "optionGroup",
+      "name": "Suit",
+      "options": [
+        {
+          "id": "black",
+          "type": "selection",
+          "name": "Black",
+          "defaultValue": "black-h3",
+          "options": [
+            {
+              "id": "black-h3",
+              "name": "Hitman 3",
+              "description": "Use Hitman 3 suit.",
+              "image": "b_h3.jpg",
+              "data": {
+                "contentFolders": ["suit/black/h3"],
+                "blobFolders": ["blobs/black"]
+              }
+            },
+            {
+              "id": "black-h2",
+              "name": "Hitman 2",
+              "description": "Use Hitman 2 slim fit suit.",
+              "image": "b_h2.jpg",
+              "data": {
+                "contentFolders": ["suit/black/h2", "suit/h2depends"],
+                "blobFolders": ["blobs/black"]
+              }
+            },
+            {
+              "id": "black-h2-tieclip",
+              "name": "Hitman 2 Tie Clip",
+              "description": "Use Hitman 2 slim fit suit with tie clip.",
+              "image": "b_h2_tieclip.jpg",
+              "data": {
+                "contentFolders": ["suit/black/h2_tieclip", "suit/h2depends"],
+                "blobFolders": ["blobs/black"]
+              }
+            },
+            {
+              "id": "black-dni",
+              "name": "Do not install",
+              "description": "Do not replace the Black Trinity suit."
+            }
+          ]
+        },
+        {
+          "id": "red",
+          "type": "selection",
+          "name": "Red",
+          "defaultValue": "red-h3",
+          "options": [
+            {
+              "id": "red-h3",
+              "name": "Hitman 3",
+              "description": "Use Hitman 3 suit.",
+              "image": "r_h3.jpg",
+              "data": {
+                "contentFolders": ["suit/red/h3"],
+                "blobFolders": ["blobs/red"]
+              }
+            },
+            {
+              "id": "red-h2",
+              "name": "Hitman 2",
+              "description": "Use Hitman 2 slim fit suit.",
+              "image": "r_h2.jpg",
+              "data": {
+                "contentFolders": ["suit/red/h2", "suit/h2depends"],
+                "blobFolders": ["blobs/red"]
+              }
+            },
+            {
+              "id": "red-h2-tieclip",
+              "name": "Hitman 2 Tie Clip",
+              "description": "Use Hitman 2 slim fit suit with tie clip.",
+              "image": "r_h2_tieclip.jpg",
+              "data": {
+                "contentFolders": ["suit/red/h2_tieclip", "suit/h2depends"],
+                "blobFolders": ["blobs/red"]
+              }
+            },
+            {
+              "id": "red-dni",
+              "name": "Do not install",
+              "description": "Do not replace the Red Trinity suit."
+            }
+          ]
+        },
+        {
+          "id": "white",
+          "type": "selection",
+          "name": "White",
+          "defaultValue": "white-h3",
+          "options": [
+            {
+              "id": "white-h3",
+              "name": "Hitman 3",
+              "description": "Use Hitman 3 suit.",
+              "image": "w_h3.jpg",
+              "data": {
+                "contentFolders": ["suit/white/h3"],
+                "blobFolders": ["blobs/white"]
+              }
+            },
+            {
+              "id": "white-h2",
+              "name": "Hitman 2",
+              "description": "Use Hitman 2 slim fit suit.",
+              "image": "w_h2.jpg",
+              "data": {
+                "contentFolders": ["suit/white/h2", "suit/h2depends"],
+                "blobFolders": ["blobs/white"]
+              }
+            },
+            {
+              "id": "white-h2-tieclip",
+              "name": "Hitman 2 Tie Clip",
+              "description": "Use Hitman 2 slim fit suit with tie clip.",
+              "image": "w_h2_tieclip.jpg",
+              "data": {
+                "contentFolders": ["suit/white/h2_tieclip", "suit/h2depends"],
+                "blobFolders": ["blobs/white"]
+              }
+            },
+            {
+              "id": "white-dni",
+              "name": "Do not install",
+              "description": "Do not replace the White Trinity suit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variants",
+      "type": "optionGroup",
+      "name": "Variants",
+      "options": [
+        {
+          "id": "black-variant",
+          "type": "optionGroup",
+          "name": "Black",
+          "options": [
+            {
+              "id": "black-variant-gloves",
+              "type": "selection",
+              "name": "Gloves",
+              "defaultValue": "black-variant-gloves-driving",
+              "options": [
+                {
+                  "id": "black-variant-gloves-driving",
+                  "name": "Driving Gloves",
+                  "description": "Use driving gloves.",
+                  "image": "b_drivinggloves.jpg"
+                },
+                {
+                  "id": "black-variant-gloves-leather",
+                  "name": "Leather Gloves",
+                  "description": "Use leather gloves.",
+                  "image": "b_leathergloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/black/gloves/leather"]
+                  }
+                },
+                {
+                  "id": "black-variant-gloves-none",
+                  "name": "No gloves",
+                  "description": "Bare hands.",
+                  "image": "b_nogloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/black/gloves/barehanded"]
+                  }
+                }
+              ]
+            }
+          ],
+          "displayCondition": "mod_option(\"Jojje.TrinityOverhaul@1.3.0\", \"black\") != Some(\"black-dni\")"
+        },
+        {
+          "id": "red-variant",
+          "type": "optionGroup",
+          "name": "Red",
+          "options": [
+            {
+              "id": "red-variant-gloves",
+              "type": "selection",
+              "name": "Gloves",
+              "defaultValue": "red-variant-gloves-driving",
+              "options": [
+                {
+                  "id": "red-variant-gloves-driving",
+                  "name": "Driving Gloves",
+                  "description": "Use driving gloves.",
+                  "image": "r_drivinggloves.jpg"
+                },
+                {
+                  "id": "red-variant-gloves-leather",
+                  "name": "Leather Gloves",
+                  "description": "Use leather gloves.",
+                  "image": "r_leathergloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/red/gloves/leather"]
+                  }
+                },
+                {
+                  "id": "red-variant-gloves-none",
+                  "name": "No gloves",
+                  "description": "Bare hands.",
+                  "image": "r_nogloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/red/gloves/barehanded"]
+                  }
+                }
+              ]
+            }
+          ],
+          "displayCondition": "mod_option(\"Jojje.TrinityOverhaul@1.3.0\", \"red\") != Some(\"red-dni\")"
+        },
+        {
+          "id": "white-variant",
+          "type": "optionGroup",
+          "name": "White",
+          "options": [
+            {
+              "id": "white-variant-gloves",
+              "type": "selection",
+              "name": "Gloves",
+              "defaultValue": "white-variant-gloves-driving",
+              "options": [
+                {
+                  "id": "white-variant-gloves-driving",
+                  "name": "Driving Gloves",
+                  "description": "Use driving gloves.",
+                  "image": "w_drivinggloves.jpg"
+                },
+                {
+                  "id": "white-variant-gloves-leather",
+                  "name": "Leather Gloves",
+                  "description": "Use leather gloves.",
+                  "image": "w_leathergloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/white/gloves/leather"]
+                  }
+                },
+                {
+                  "id": "white-variant-gloves-none",
+                  "name": "No gloves",
+                  "description": "Bare hands.",
+                  "image": "w_nogloves.jpg",
+                  "data": {
+                    "contentFolders": ["variant/white/gloves/barehanded"]
+                  }
+                }
+              ]
+            }
+          ],
+          "displayCondition": "mod_option(\"Jojje.TrinityOverhaul@1.3.0\", \"white\") != Some(\"white-dni\")"
+        }
+      ]
+    }
+  ]
 }
+
